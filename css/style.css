@@ -1,0 +1,244 @@
+
+.freeman-regular {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Estilos para body */
+body.inicio {
+  font-family: 'Freeman', sans-serif;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-size: 16px;
+  color: navy;
+}
+
+/* Estilos para la columna izquierda */
+.left {
+  width: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para la columna derecha */
+.right {
+  width: 40%;
+  background-color: #ADD8E6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+}
+
+/* Estilos para los botones */
+.button {
+  margin: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  border-bottom: 4px solid white;
+}
+
+/* Estilos para centrar texto */
+.center-text {
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.small-logo {
+  width: 100px;
+  margin-top: 40px;
+  height: auto;
+}
+
+
+.about-us {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.list-content {
+  flex-grow: 1;
+}
+
+h1.text-center {
+  margin-top: 100px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Freeman', sans-serif;
+  background-color: #ADD8E6;
+}
+
+.card {
+  background-color: #ADD8E6;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.offcanvas {
+  background-color: #0382AD !important;
+}
+
+.navbar-brand img {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  background-color: #0382AD !important;
+}
+
+.card {
+  border-color: white !important;
+}
+
+.list-number {
+  font-size: 4em;
+  text-align: center;
+}
+
+.list-content {
+  text-align: center;
+}
+
+.text-content p {
+  font-size: 14px;
+}
+
+.h1.catalogo {
+  padding-top: 80px;
+}
+
+.img-fluid {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  margin: 10px;
+  position: absolute;
+  bottom: 150px;
+  left: -200px;
+}
+
+body.nosotros {
+  padding-top: 80px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+body.contacto {
+  font-family: 'Freeman', sans-serif;
+  padding-top: 80px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 50px 55px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  color: #0382AD;
+  font-size: 35px;
+}
+
+label {
+  color: #0382AD;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  border: 2px solid #0382AD;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: #ADD8E6;
+  outline: none;
+}
+
+body.catalogo {
+  font-family: 'Freeman', sans-serif;
+  text-align: center;
+}
+
+.card {
+  background-color: #ADD8E6;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-fluid-card {
+  position: absolute;
+  top: 0;
+  left: -30%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+h1.catalogo {
+  margin-top: 100px;
+  color: black;
+}
+
+body.redes {
+  font-family: 'Freeman', sans-serif;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.facebook {
+  background-color: white !important;
+}
+
+.facebook,
+.instagram-video {
+  margin-top: 20px;
+}
